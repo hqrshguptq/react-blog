@@ -4,7 +4,7 @@ const userSchema = mongoose.Schema({
         name:
         {
         type:String,
-        maxlength:50}
+        maxlength:50
         },
         email: {
             type:String,
@@ -35,4 +35,4 @@ const userSchema = mongoose.Schema({
 
     const User=mongoose.model('User',userSchema);
 
-    module.exports {User};
+    module.exports= {User}
